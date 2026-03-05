@@ -89,8 +89,12 @@ export default function Header() {
           <Link href="/alumni" onClick={handleLinkClick} className={pathname === "/alumni" ? "active" : ""}>
             ALUMNI
           </Link>
+          <Link href="/magazine" onClick={handleLinkClick} className={pathname === "/magazine" ? "active" : ""}>
+            MAGAZINE
+          </Link>
         </nav>
       </div>
     </>
   );
+
 }
