@@ -31,7 +31,7 @@ export default function Header() {
           <Link href="/coursecat" className={pathname === "/coursecat" ? "active" : ""}>COURSE CAT</Link>
           <Link href="/program" className={pathname === "/program" ? "active" : ""}>PROG & EVENT</Link>
           <Link href="/alumni" className={pathname === "/alumni" ? "active" : ""}>ALUMNI</Link>
-           <Link href="/magazine" className={pathname === "/magazine" ? "active" : ""}>MAGAZINE</Link>
+          <Link href="/magazine" className={pathname === "/magazine" ? "active" : ""}>MAGAZINE</Link>
           <Link href="/login" className={pathname === "/login" ? "active" : ""}>LOGIN</Link>
         </nav>
 
@@ -73,14 +73,8 @@ export default function Header() {
           <Link href="/school" onClick={handleLinkClick} className={pathname === "/school" ? "active" : ""}>
             TRAINING SCHOOLS
           </Link>
-          <Link href="/contact" onClick={handleLinkClick} className={pathname === "/contact" ? "active" : ""}>
-            CONTACT
-          </Link>
           <Link href="/coursecat" onClick={handleLinkClick} className={pathname === "/coursecat" ? "active" : ""}>
             COURSE CAT
-          </Link>
-          <Link href="/fmy" onClick={handleLinkClick} className={pathname === "/fmy" ? "active" : ""}>
-            FMY
           </Link>
           <Link href="/program" onClick={handleLinkClick} className={pathname === "/program" ? "active" : ""}>
             PROG & EVENT
@@ -91,10 +85,14 @@ export default function Header() {
           <Link href="/magazine" onClick={handleLinkClick} className={pathname === "/magazine" ? "active" : ""}>
             MAGAZINE
           </Link>
+          <Link href="/login" onClick={handleLinkClick} className={pathname === "/login" ? "active" : ""}>
+            LOGIN
+          </Link>
         </nav>
       </div>
     </>
   );
 
 }
+
 
