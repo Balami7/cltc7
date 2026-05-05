@@ -28,11 +28,11 @@ export default function Header() {
           <Link href="/procurement" className={pathname === "/procurement" ? "active" : ""}>PROCUREMENT</Link>
           <Link href="/newsmedia" className={pathname === "/newsmedia" ? "active" : ""}>NEWS & MEDIA</Link>
           <Link href="/school" className={pathname === "/school" ? "active" : ""}>TRAINING SCHS</Link>
-          <Link href="/coursecat" className={pathname === "/coursecat" ? "active" : ""}>COURSE CAT</Link>
+          {/*<Link href="/coursecat" className={pathname === "/coursecat" ? "active" : ""}>COURSE CAT</Link>*/}
           <Link href="/program" className={pathname === "/program" ? "active" : ""}>PROG & EVENT</Link>
           <Link href="/alumni" className={pathname === "/alumni" ? "active" : ""}>ALUMNI</Link>
           {/*<Link href="/alumni" className={pathname === "/magazine" ? "active" : ""}>MAGAZINE</Link>*/}
-          <Link href="/login" className={pathname === "/login" ? "active" : ""}>LOGIN</Link>
+          {/*<Link href="/login" className={pathname === "/login" ? "active" : ""}>LOGIN</Link>*/}
         </nav>
 
         <button
@@ -73,9 +73,9 @@ export default function Header() {
           <Link href="/school" onClick={handleLinkClick} className={pathname === "/school" ? "active" : ""}>
             TRAINING SCHOOLS
           </Link>
-          <Link href="/coursecat" onClick={handleLinkClick} className={pathname === "/coursecat" ? "active" : ""}>
+          {/*<Link href="/coursecat" onClick={handleLinkClick} className={pathname === "/coursecat" ? "active" : ""}>
             COURSE CAT
-          </Link>
+          </Link>*/}
           <Link href="/program" onClick={handleLinkClick} className={pathname === "/program" ? "active" : ""}>
             PROG & EVENT
           </Link>
@@ -85,9 +85,9 @@ export default function Header() {
           {/*<Link href="/magazine" onClick={handleLinkClick} className={pathname === "/magazine" ? "active" : ""}>
             MAGAZINE
           </Link>*/}
-          <Link href="/login" onClick={handleLinkClick} className={pathname === "/login" ? "active" : ""}>
+          {/*<Link href="/login" onClick={handleLinkClick} className={pathname === "/login" ? "active" : ""}>
             LOGIN
-          </Link>
+          </Link>*/}
         </nav>
       </div>
     </>
