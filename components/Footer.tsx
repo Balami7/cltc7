@@ -1,4 +1,3 @@
-
 export default function Footer() {
   return (
     <footer className="footer">
@@ -9,9 +8,15 @@ export default function Footer() {
             alt="Citizenship and Leadership Training Centre Logo"
             className="footer-logo-img"
           />
+          <div className="social-icons">
+            <a href="#" className="social-link"><i className="fa-brands fa-x-twitter"></i></a>
+            <a href="#" className="social-link"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="#" className="social-link"><i className="fa-brands fa-facebook"></i></a>
+            <a href="#" className="social-link"><i className="fa-brands fa-instagram"></i></a>
+            <a href="#" className="social-link"><i className="fa-brands fa-youtube"></i></a>
+          </div>
         </div>
 
-        
         <div className="footer-column contact-column">
           <div className="footer-logo-text">
             Citizenship & Leadership Training Centre (CLTC)
@@ -19,7 +24,7 @@ export default function Footer() {
           <p className="tagline">
             Empowering Nigerians through leadership development and experiential training.
           </p>
-          </div>
+        </div>
 
         <div className="footer-column contact-address">
           <div className="contact-info">
@@ -44,19 +49,6 @@ export default function Footer() {
           </div>
         </div>
 
-        
-        <div className="footer-column social-column">
-          <h4>Socials</h4>
-          <div className="social-icons">
-            <a href="#" className="social-link"><i className="fa-brands fa-x-twitter"></i></a>
-            <a href="#" className="social-link"><i className="fa-brands fa-linkedin"></i></a>
-            <a href="#" className="social-link"><i className="fa-brands fa-facebook"></i></a>
-            <a href="#" className="social-link"><i className="fa-brands fa-instagram"></i></a>
-            <a href="#" className="social-link"><i className="fa-brands fa-youtube"></i></a>
-          </div>
-        </div>
-
-        
         <div className="footer-column links-column">
           <h4>Quick Links</h4>
           <ul className="footer-links">
@@ -69,7 +61,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        
         <div className="footer-column arms-column">
           <img
             src="/image 12.png"
@@ -79,7 +70,6 @@ export default function Footer() {
         </div>
       </div>
 
-      
       <div className="footer-bottom">
         <p>Copyright © 2026 CLTC | Powered by CLTC.</p>
       </div>
